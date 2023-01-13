@@ -55,9 +55,9 @@ JS
   document.addEventListener("DOMContentLoaded", function () {
     var options = {
       correctAnswers: {
-        "pregunta1": "uno",
-        "pregunta2": "dos",
-        "pregunta3": "tres",
+        "pregunta1": "pregunta1",
+        "pregunta2": "pregunta2",
+        "pregunta3": "pregunta3",
       ...
       },
       classSelectors: "correct,incorrect",
@@ -70,3 +70,4 @@ JS
   });
 </script>
 ~~~
+Nota: Solo correcAnswers es imprescindible, los demás pueden no incluirse y se quedan los default.
