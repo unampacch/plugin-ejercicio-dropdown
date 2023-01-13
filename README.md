@@ -2,7 +2,8 @@
 Plug in para ejercicios con dropdown
 
 ## Uso y configuración
-`<div class="exercise-dropdown">
+~~~
+<div class="exercise-dropdown">
   <form class="form-inline">
     <p class="bg-grey p-1">Edinburgh is one of the most famous cities in the United Kingdom not only for its ancient
       Castle or beautiful sightseeing, but also for its well-known writers such as Robert Louis Stevenson, he was the man who wrote
@@ -44,11 +45,13 @@ Plug in para ejercicios con dropdown
       Jekyll was peculiarly involved in some way.
     </p>
   </form>
-</div>`
+</div>
+~~~
 
 JS
+~~~
 
-`<script>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     var options = {
       correctAnswers: {
@@ -65,4 +68,5 @@ JS
     };
     exerciseDropdown(options);
   });
-</script>`
+</script>
+~~~
