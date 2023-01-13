@@ -70,4 +70,4 @@ JS
   });
 </script>
 ~~~
-Nota: Solo correcAnswers es imprescindible, los demás pueden no incluirse y se quedan los default.
+Nota: Solo correctAnswers es imprescindible, los demás pueden no incluirse y se quedan los default.
